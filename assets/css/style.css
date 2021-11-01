@@ -153,12 +153,13 @@ header{
     position: absolute;
     bottom: 15%;
     left: -25%;
-    z-index: 999;
+    z-index: 1;
     font-weight: 800;
 }
 .swiper-button-prev{
     top:525px;
     left: 20%;
+    z-index: 10;
 }
 .swiper-button-prev::after{
     content: "\e908";
@@ -170,6 +171,7 @@ header{
 .swiper-button-next{
     top:525px;
     left: 29%;
+    z-index: 10;
 }
 .swiper-button-next::after{
     content: "\e90b";
