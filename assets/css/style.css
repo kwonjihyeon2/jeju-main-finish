@@ -460,7 +460,7 @@ footer{
         top: 0;
         width: 100%;
         left: 0;
-        margin-top: -900px;
+        margin-top: -1500px;
         height: 100vh;
         transition: all 0.3s;
         z-index: 50;
@@ -520,6 +520,12 @@ footer{
     .mo-main-img{
         display: block;
     }
+    .swiper-button-next{
+        top: 373px;
+    }
+    .swiper-button-prev{
+        top: 373px;
+    }
     /* section01 end */
     .detail{
         flex-wrap: wrap;
@@ -572,6 +578,15 @@ footer{
     .notice a{
         margin-left: 20px;
     }
+    .swiper-pagination {
+        left: -33%;
+    }
+    .swiper-button-prev {
+        top: 82%;
+    }
+    .swiper-button-next {
+        top: 81%;
+    }
     /* section01 end */
     .container h1{
         font-size: 1.8rem;
@@ -605,6 +620,16 @@ footer{
     } */
     .left-navi{
         padding: 26px 0 0 26px;
+    }
+    .swiper-pagination {
+        left: -30%;
+    }
+    .swiper-button-prev {
+        top: 80%;
+    }
+    .swiper-button-next {
+        top: 80%;
+        left: 30%;
     }
     /* section01 end */
     .section02{

@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>제주용암수</title>
-    <!-- swiper.js -->
+    <!-- swiper -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     <!-- xeicon -->
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
-    <!-- aos.js -->
+    <!-- aos-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -190,36 +190,8 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script>
-        AOS.init();
-
-
-        const navi=document.querySelector('.right-menu');
-        const menuBtn=document.querySelector('.menu-btn');
-
-        menuBtn.addEventListener('click',()=>{
-            navi.classList.toggle('gnb-btn');
-        });
-
-        var swiper = new Swiper(".mySwiper", {
-        pagination: {
-          el: ".swiper-pagination",
-          type: "fraction",
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-
-    //top button
-    $(window).scroll(function(){
-        if($(window).scrollTop() > 500){
-            $('.top').fadeIn();
-        } else{
-            $('.top').fadeOut();
-        }
-    });
-    </script>
+    <!-- main -->
+    <script src="assets/js/main.js"></script>
+    
 </body>
 </html>
